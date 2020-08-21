@@ -8,7 +8,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/intersection-observer-lab">
       <GlobalStyle />
       <NavigationBar />
       <Route exact path="/" component={Home} />
